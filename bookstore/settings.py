@@ -151,7 +151,9 @@ REST_FRAMEWORK = {
 }
 
 INTERNAL_IPS = [
+    "localhost",
     "127.0.0.1",
+    "emersonpenelli.pythonanywhere.com"
 ]
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
