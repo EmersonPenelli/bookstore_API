@@ -30,8 +30,7 @@ SECRET_KEY = (
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-DJANGO_ALLOWED_HOSTS: List[str] = []
-
+ALLOWED_HOSTS = ["localhost", "127.0.0.1", "emersonpenelli.pythonanywhere.com"]
 
 # Application definition
 
